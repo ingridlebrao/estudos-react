@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&family=Poppins&display=swap");
+
+body {
+  background: rgb(255,255,255);
+  background: linear-gradient(320deg, rgba(255,255,255,1) 31%, rgba(240, 128, 128, 0.575) 100%);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(258px, 1fr));
+}
+
+.post {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(258px, 1fr));
+  gap: 12px;
+  background-color: #fff;
+  border: 1px solid #000;
+  transition: transform 100ms ease-in-out;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+.post img {
+  max-width: 100%;
+}
+
+.App-item {
+  padding: 20px;
+}
+
+.App-item h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.App-item p {
+  font-family: "Fira Mono", monospace;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+
+.posts-header {
+  font-family: "Fira mono", monospace;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 12px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+input {
+  font-family: "Fira mono", monospace;
+}
+
+.posts-notfound {
+  font-family: "Fira mono", sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.post-notfound-span {
+  text-decoration: underline;
+}

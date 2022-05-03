@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&family=Poppins&display=swap");
+
+.button {
+    font-family: 'Fira Mono', monospace;
+    width: 50%;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.8s ease-in-out;
+}
+
+.button:hover {
+    background: #000;
+    color: #fff;
+}
+
+.button:disabled {
+    background: #ccc;
+    color: #000;
+}
